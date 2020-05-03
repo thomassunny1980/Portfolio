@@ -1,0 +1,118 @@
+.card:hover{
+
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+.animated{
+
+    animation-delay: 2s;
+}
+
+.img-fluid:hover{
+
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, 0.75);
+}
+
+h4::after{
+
+    display: block;
+    height: 3px;
+    background-color: #007bff;
+    content: "";
+    width: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.p-experiance{
+
+    font-style: normal;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactUs{
+    margin-left: 7em;
+    margin-right: 5em;
+    margin-top: 2em;
+}
+.btn{
+
+    margin-top: 2em;
+    
+    
+}
+.header{
+
+    width: 100%;
+}
+
+body{
+
+    margin: 0;
+    display: block;
+}
+
+.footer-link{
+
+    color: white;
+}
+
+.footer-link:hover{
+
+    color: red;
+}
+
+.social{
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+}
+.social:hover{
+
+    transform: scale(1.1);
+}
+
+#social-fb:hover{
+
+    color:#3B5998 ;
+}
+
+#social-tw:hover{
+    color: #4099FF;
+}
+
+#social-gp:hover{
+
+    color: #d34836;
+}
+
+#social-li:hover{
+
+    color: #0072b1;
+}
+
+#social-ig:hover{
+    color: rgb(24, 93, 230)
+}
+
+#social-pt:hover{
+    color:  #c8232c;
+}
+
+header{
+
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#home{
+
+    padding-top: 10em;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
